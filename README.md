@@ -2,11 +2,17 @@
 
 _Udacity Deep Reinforcement Learning Nanodegree_
 
-TODO: put gif here
+![Smart agent](img/smart_agent.gif)
 
 ### Project details
 
-TODO
+In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+
+To speed up the process of learning, this project uses distributed training - multiple (non-interacting, parallel) copies of the same agent distributes the task of gathering experience.
+
+To solve the environment, the agents must get an average score of +30 over 100 consecutive episodes, and over all agents.
 
 ### Prerequisites
 
